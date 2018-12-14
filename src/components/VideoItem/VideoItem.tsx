@@ -18,7 +18,7 @@ const VideoItem: React.SFC<IProps> = props => {
         <VideoItemImage image={props.image} />
         <VideoItemBottom>
           <VideoItemTitle>{props.title}</VideoItemTitle>
-          <VideoItemSubTitle>2 weeks ago</VideoItemSubTitle>
+          {/*<VideoItemSubTitle>2 weeks ago</VideoItemSubTitle>*/}
         </VideoItemBottom>
       </Link>
     </VideoItemStyled>

@@ -72,21 +72,21 @@ const VideoPlayer: React.SFC<IProps> = props => {
       <PlaylistHeader>
         <PlaylistSwitchStyled>
           <Switch checked={autoPlaylist} onChange={onChangeAutoPlaylist} />
-          <span> Autoplay</span>
+          <span> Keep playing videos</span>
         </PlaylistSwitchStyled>
         <PlaylistHeadButtonStyled
           active={repeat}
           onClick={onChangeRepeat.bind(null, !repeat)}
         >
           <i className="fas fa-redo-alt" />
-          <span> Loop</span>
+          <span> Replay this video</span>
         </PlaylistHeadButtonStyled>
         <PlaylistHeadButtonStyled
           active={random}
           onClick={onChangeRandom.bind(null, !random)}
         >
           <i className="fas fa-random" />
-          <span> Random</span>
+          <span> Play random video</span>
         </PlaylistHeadButtonStyled>
       </PlaylistHeader>
     );

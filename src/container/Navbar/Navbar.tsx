@@ -40,7 +40,8 @@ const Navbar = withRouter(({ history, location, resetDatabase }: IProps) => {
           </svg>
         </Link>
       </NavbarLogoStyled>
-      <SearchBox history={history} />
+      <h2>Kranz-tube</h2>
+      {/*<SearchBox history={history} />*/}
       <NavBarLink>
         <Link to="/edit">
           <i className="fas fa-plus" /> <span>Add videos</span>
